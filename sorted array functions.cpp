@@ -7,6 +7,10 @@ void TakeInput(){
     freopen("outputf.out","w",stdout);
     #endif
 }
+//every time we are giving arguments to functions like binary_search, lower_bound, 
+//upper_bound, find we are giving like this (a,                         ,a+n,                    key                 )
+//                                           array first element address,address of last element,the element to search
+//we print indexes by subtracting obtained address with a(address of first element)
 int main()
 {  
     TakeInput();
