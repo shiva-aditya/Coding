@@ -4,6 +4,9 @@ using namespace std;
 
 int main() {
     vector<int >v = {8,3,4,5};//declaring vector;
+    sort(v.begin() , v.end());
+    //sort the vector
+    //we can upto certain distance by giving second distance as we want
     v.begin();
     //gives address of first element, to retrieve data put *
     v.end();
