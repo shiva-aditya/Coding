@@ -52,6 +52,8 @@ int main() {
     //same as insert takes address and element
     v.emplace_back(1);
     //same as insert 
+    reverse(v.begin() , v.end());
+    //reverse the vector
 }
 =========different way to for loop==========
 for (int i=0 ; i<v.size() ; i++){
