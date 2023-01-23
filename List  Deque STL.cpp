@@ -5,6 +5,7 @@ using namespace std;
 int main() {
     list<int>l={1,1,2,2,2,3,2,3,4,};
     //declartion of list
+    deque
     //"pretty much (every function) in vector accepts in list also" but some functins are provided extra in list
     //list is also called double ended list
     l.remove(l.begin() , l.end() , 2);
