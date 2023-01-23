@@ -22,6 +22,7 @@ int main() {
     //If length of vector is 5 with different elements, if argument is 3 it leaves 
     //vector with length 3 leaving remaining 2 elements behind
     //if we print elements after resize prints upto argument only
+    //if the resize element is more than lenght of vector, then it gives 0 to extra elements
     v.capacity();//constant 
     //gives the size of storage space alooted to vector
     //difference bet size and capacity:
