@@ -23,6 +23,10 @@ int main() {
     //vector with length 3 leaving remaining 2 elements behind
     //if we print elements after resize prints upto argument only
     //if the resize element is more than lenght of vector, then it gives 0 to extra elements
+    //{8,3,4,5,0,0,0,0,0,0}
+    v.resize(10,100);
+    //this means that if resize is more than length of vector extra element is given as second argument
+    //{8,3,4,5,100,100,100,100,100,100};
     v.capacity();//constant 
     //gives the size of storage space alooted to vector
     //difference bet size and capacity:
