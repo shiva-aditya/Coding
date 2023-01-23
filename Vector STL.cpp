@@ -53,3 +53,13 @@ int main() {
     v.emplace_back(1);
     //same as insert 
 }
+=========different way to for loop==========
+for (int i=0 ; i<v.size() ; i++){
+    cout<<v[i]<<" ";
+}
+for (auto it = v.begin() ; it!=v.end() ; it++){
+    cout<<*it<<" ";
+}
+for (auto it : v){
+    cout<<it<<" ";
+}
