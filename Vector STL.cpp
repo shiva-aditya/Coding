@@ -3,6 +3,7 @@ using namespace std;
 
 
 int main() {
+    //can use all sorted array operations in vector container like lower&upper bound ans so on.
     vector<int >v = {8,3,4,5};//declaring vector;
     sort(v.begin() , v.end());
     //sort the vector
