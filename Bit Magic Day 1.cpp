@@ -1,4 +1,4 @@
-//we shoould each code and execute it that way we understand
+//We should understand each code and execute it that is the way we understand each cases
 #include<bits/stdc++.h>
 using namespace std;
 
