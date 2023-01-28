@@ -2,6 +2,19 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// This Funtion prints integer
+void PrintInteger(int n){
+	int i = 0 ;
+	int ans = 0;
+	while(n){
+		int r = n%10;
+		n = n/10;
+		ans = ans + (r * pow(2,i));
+		i++;
+	}
+	cout<<ans<<endl;
+}
+
 //This Function prints Binary
 void PrintBinary(int n){
 	cout<<n<<" : ";
