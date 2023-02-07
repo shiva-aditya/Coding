@@ -5,7 +5,7 @@ int main() {
     int num = 19; // int num stores only integers
     int *p = &num ; // *p means it is pointer variable, that's the way to intilaize
     //It storing only addresses of the another variable, that means "int *p            =          &num"
-    //                                                            pointer variable  assigning  num int variable address
+    //                                                               pointer variable  assigning  num int variable address
     //How can we access? 
     //by using '*' followed by the name of pointer variable we can access
     //that means '*p' will give the value which is stored at that address
