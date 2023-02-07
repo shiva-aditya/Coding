@@ -43,9 +43,7 @@ int AllOccurence(int *a , int n , int k , int *out , int i , int j){
     }
     return AllOccurence(a+1 , n-1 , k ,out , i+1 ,j);
 
-}
-
-//All Occurence of element k 
+} 
 int main() {
     int a[] = {1,4,2,5,4,6,2,5,5,5,5};
     int n = sizeof(a)/sizeof(a[0]);
