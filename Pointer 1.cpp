@@ -11,7 +11,7 @@ int main() {
     //that means '*p' will give the value which is stored at that address
     //"p" will give the address, it will stored, fact is that the address showed by p is equal to address of num variable
     //cout<<*p; // gives value of num == 19
-    //cout<<pl; // gives the address is stores == 0x61ff08
+    //cout<<p; // gives the address is stores == 0x61ff08
     //Note : there is no such thing like *num, it doesn't give the value, unless it gives error
 
     //One way of declaring the pointer variable and assigning address
